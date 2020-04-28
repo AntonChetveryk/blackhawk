@@ -6,6 +6,72 @@
     <title>HW2</title>
   </head>
   <body>
-    <h1>HW2</h1>
+    <table border="1px solid black">
+      <caption>
+        Table
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Last name</th>
+        <th>Tel.</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Anton</td>
+        <td>Chetveryk</td>
+        <td>+380671234567</td>
+        <td>chetverykanton92@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Anton</td>
+        <td>Chetveryk</td>
+        <td>+380671234567</td>
+        <td>chetverykanton92@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Anton</td>
+        <td>Chetveryk</td>
+        <td>+380671234567</td>
+        <td>chetverykanton92@gmail.com</td>
+      </tr>
+    </table>
+    <br />
+    <form>
+      <input type="text" placeholder="Name" />
+      <br />
+      <input type="text" placeholder="Last name" />
+      <br />
+      <h2>Gender</h2>
+      <input type="radio" id="male" name="gender" value="male" checked />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <br />
+      <br />
+      <textarea
+        name="message"
+        rows="10"
+        cols="30"
+        placeholder="Напишите Ваш вопрос."
+      ></textarea>
+      <br />
+      <select id="cities" name="cities">
+        <option selected disabled>Выберите город</option>
+        <option value="Lviv">Lviv</option>
+        <option value="Dnipro">Dnipro</option>
+        <option value="Kyiv">Kyiv</option>
+        <option value="Kharkiv">Kharkiv</option>
+      </select>
+      <h2>Choose a language</h2>
+      <input type="checkbox" value="English" />English
+      <br />
+      <input type="checkbox" value="Русский" />Русский
+      <br />
+      <input type="checkbox" value="Українська" />Українська
+      <br />
+      <br />
+      <button>Submit</button>
+    </form>
   </body>
 </html>
