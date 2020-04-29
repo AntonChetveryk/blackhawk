@@ -35,27 +35,28 @@
         <td>chetverykanton92@gmail.com</td>
       </tr>
     </table>
-    <br />
+
     <form>
-      <input type="text" placeholder="Name" />
-      <br />
-      <input type="text" placeholder="Last name" />
-      <br />
+      <div>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Last name" />
+      </div>
+
       <h2>Gender</h2>
       <input type="radio" id="male" name="gender" value="male" checked />
       <label for="male">Male</label>
-      <br />
+
       <input type="radio" id="female" name="gender" value="female" />
       <label for="female">Female</label>
-      <br />
-      <br />
-      <textarea
-        name="message"
-        rows="10"
-        cols="30"
-        placeholder="Напишите Ваш вопрос."
-      ></textarea>
-      <br />
+      <div>
+        <textarea
+          name="message"
+          rows="10"
+          cols="30"
+          placeholder="Напишите Ваш вопрос."
+        ></textarea>
+      </div>
+
       <select id="cities" name="cities">
         <option selected disabled>Выберите город</option>
         <option value="Lviv">Lviv</option>
@@ -64,13 +65,14 @@
         <option value="Kharkiv">Kharkiv</option>
       </select>
       <h2>Choose a language</h2>
-      <label><input type="checkbox" value="English" />English</label>
-      <br />
-      <label><input type="checkbox" value="Русский" />Русский</label>
-      <br />
-      <label><input type="checkbox" value="Українська" />Українська</label>
-      <br />
-      <br />
+      <div>
+        <label><input type="checkbox" value="English" />English</label>
+
+        <label><input type="checkbox" value="Русский" />Русский</label>
+
+        <label><input type="checkbox" value="Українська" />Українська</label>
+      </div>
+
       <button>Submit</button>
     </form>
   </body>
