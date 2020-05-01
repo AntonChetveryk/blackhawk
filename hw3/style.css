@@ -7,6 +7,7 @@
 body {
   background: #2c2c2c;
   color: white;
+  font-family: Helvetica, sans-serif;
 }
 
 .container {
@@ -38,6 +39,10 @@ td:nth-child(2) {
 
 tr:not(:last-child) td {
   border-bottom: 1px solid #404040;
+}
+
+tr:not(:first-child) td:first-child {
+  color: #a5a5a5;
 }
 
 .search-container {
@@ -72,4 +77,9 @@ tr:not(:last-child) td {
 
 .triangle {
   width: 8px;
+}
+
+.inbox {
+  width: 14px;
+  margin-right: 5px;
 }
