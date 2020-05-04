@@ -1,0 +1,97 @@
+html,
+body {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  background: url("./img/Bg.png") 100% 100% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  font-size: 14px;
+}
+
+.container {
+  width: 980px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  font-size: 18px;
+}
+
+.cloud {
+  margin-right: 8px;
+}
+
+.language-bar span {
+  margin: 0 10px;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.language-bar {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background: none;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  margin-left: 30px;
+}
+
+main {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.main-header {
+  font-size: 72px;
+}
+
+.content {
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.sign-up {
+  margin-top: 40px;
+  width: 160px;
+  height: 50px;
+  background: #fff;
+  color: #ed4c5c;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
