@@ -52,6 +52,10 @@ header {
   text-decoration: none;
 }
 
+.menu li a:hover {
+  color: #f44336;
+}
+
 .language-bar {
   display: flex;
   align-items: center;
@@ -65,6 +69,10 @@ header {
   height: 40px;
   color: #fff;
   margin-left: 30px;
+}
+
+.login:hover {
+  color: #f44336;
 }
 
 main {
@@ -90,6 +98,10 @@ main {
   color: #ed4c5c;
   border-radius: 6px;
   border: none;
+}
+
+.sign-up:hover {
+  opacity: 0.8;
 }
 
 button {
