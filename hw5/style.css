@@ -113,6 +113,11 @@ main {
   font-size: 14px;
 }
 
+.main-form button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .main-form div {
   display: flex;
 }
