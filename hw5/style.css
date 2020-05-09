@@ -1,0 +1,159 @@
+html,
+body {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+header {
+  background: #ed4c5c;
+  height: 500px;
+}
+
+.header-content {
+  margin-top: 122px;
+}
+
+.header-content h2 {
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.header-content p {
+  margin: 40px 0;
+}
+
+.header-img {
+  margin-top: 94px;
+}
+
+.header-content,
+.header-img,
+.main-content,
+.main-form {
+  width: 50%;
+}
+
+.header-img {
+  display: flex;
+}
+
+.main-content,
+.main-form {
+  margin-top: 117px;
+}
+
+.main-img {
+  position: relative;
+  right: 339px;
+  z-index: 1;
+}
+
+.right-img {
+  position: relative;
+  right: 678px;
+  top: 22px;
+}
+
+.left-img {
+  position: relative;
+  top: 22px;
+}
+
+.header-content h2,
+.header-content p,
+.main-content p,
+.main-form,
+.footer__items {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  height: 500px;
+}
+
+.main-content h2 {
+  font-size: 36px;
+  margin: 0 0 60px 0;
+}
+.main-content,
+.footer__items,
+.copyright {
+  color: black;
+}
+
+.main-form input {
+  margin-bottom: 24px;
+  padding: 20px 30px;
+  border-radius: 6px;
+  border: 1px solid #333333;
+  color: rgba(19, 39, 67, 0.5);
+  font-size: 16px;
+  outline: none;
+}
+
+.main-form button {
+  width: 160px;
+  height: 50px;
+  background: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.main-form div {
+  display: flex;
+}
+
+.main-form div input {
+  width: 50%;
+}
+
+.main-form div input:first-child {
+  margin-right: 30px;
+}
+
+footer {
+  background: #fafafa;
+  height: 500px;
+  padding: 85px 0 0 0;
+}
+
+.footer-items-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer__items h3 {
+  margin-bottom: 33px;
+  font-size: 18px;
+}
+
+.footer__items span {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.icons {
+  margin-top: 25px;
+}
+
+.copyright {
+  margin-top: 90px;
+  color: #101010;
+  font-weight: normal;
+  font-size: 12px;
+}
