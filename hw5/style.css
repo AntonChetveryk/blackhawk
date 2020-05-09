@@ -91,7 +91,8 @@ main {
   color: black;
 }
 
-.main-form input {
+.main-form input,
+.main-form select {
   margin-bottom: 24px;
   padding: 20px 30px;
   border-radius: 6px;
