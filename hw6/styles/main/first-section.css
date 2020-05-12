@@ -1,0 +1,51 @@
+.save-data {
+  display: flex;
+  margin-top: 145px;
+}
+
+.save-data h1 {
+  width: 645px;
+  height: 184px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 110%;
+  color: #212353;
+  margin: 0;
+}
+
+.save-data p {
+  width: 380px;
+  height: 120px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin: 50px 0;
+}
+
+.save-data button {
+  background: #9c69e2;
+  border-radius: 50px;
+  width: 170px;
+  height: 60px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+.save-data-img {
+  position: relative;
+}
+
+.save-data-img img {
+  position: absolute;
+  top: 110px;
+  left: -285px;
+}

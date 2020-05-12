@@ -1,0 +1,12 @@
+@import "./first-section.css";
+@import "./second-section.css";
+@import "./third-section.css";
+@import "./fourth-section.css";
+
+.grey-line {
+  width: 100%;
+  height: 2px;
+  background: #9c69e2;
+  opacity: 0.2;
+  margin-top: 150px;
+}

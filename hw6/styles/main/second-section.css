@@ -1,0 +1,28 @@
+.storage-bank {
+  width: 1117px;
+  height: 560px;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.storage-bank-content {
+  width: 475px;
+  margin-left: 60px;
+}
+
+.storage-bank h3 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #212353;
+}
+
+.storage-bank p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+}

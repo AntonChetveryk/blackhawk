@@ -1,0 +1,17 @@
+@import "./header.css";
+@import "./main/main.css";
+@import "./footer.css";
+
+html,
+body {
+  font-family: "Baloo 2", Helvetica, sans-serif;
+  box-sizing: border-box;
+  background: #e5e5e5;
+  color: #4b5d68;
+  font-size: 18px;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
