@@ -58,6 +58,10 @@ header .container {
   align-items: center;
 }
 
+.demo:hover {
+  cursor: pointer;
+}
+
 .demo img {
   margin-left: 20px;
 }
