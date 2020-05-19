@@ -66,8 +66,12 @@
   display: flex;
   margin-top: auto;
   align-items: center;
+}
+
+.feature-learn-more a {
   color: #212353;
   font-weight: 800;
+  text-decoration: none;
 }
 
 .feature-learn-more img {

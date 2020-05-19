@@ -60,6 +60,7 @@ header .container {
 
 .demo:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 .demo img {
