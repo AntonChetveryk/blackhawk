@@ -27,7 +27,6 @@
 .features-items-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-row: 1fr 1fr;
   margin-top: 150px;
   grid-column-gap: 90px;
   grid-row-gap: 120px;
