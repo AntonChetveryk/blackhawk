@@ -1,0 +1,195 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+.grey-bg {
+  background: #f5f5f7;
+}
+
+.wrapper {
+  width: 1440px;
+  height: 900px;
+  border: 1px solid red;
+  margin: auto;
+  display: flex;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 132px;
+  height: 852px;
+  background: #000000;
+  border-radius: 24px;
+  color: white;
+  align-items: center;
+  margin: 24px 0 24px 32px;
+}
+
+aside menu,
+aside menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+aside menu ul li,
+.courses-menu ul li,
+.statistics-wrapper ul li {
+  list-style-type: none;
+}
+
+aside menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* main */
+
+main {
+  display: flex;
+}
+
+main .main-left,
+main .main-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-left {
+  margin: 55px 64px 0 72px;
+}
+
+.main-left .greeting-wrapper {
+  width: 620px;
+  height: 160px;
+  border-radius: 14px;
+}
+
+.main-left .language-wrapper {
+  width: 500.26px;
+  height: 80px;
+  margin-top: 24px;
+  border-radius: 14px;
+}
+
+.main-left .courses-wrapper {
+  margin-top: 40px;
+}
+
+.main-left .courses-wrapper h2,
+.statistics-wrapper h2 {
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 24px;
+}
+
+.courses-menu {
+  margin-top: 16px;
+}
+
+.courses-menu ul,
+.statistics-wrapper ul {
+  display: flex;
+  padding: 0;
+}
+
+.courses-menu ul li a,
+.statistics-wrapper ul li a {
+  text-decoration: none;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 16px;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.courses-menu ul li:not(:first-child) {
+  margin-left: 32px;
+}
+
+.courses-menu ul li:first-child a,
+.statistics-wrapper ul li:first-child a {
+  opacity: 1;
+}
+
+.courses-items-wrapper {
+  margin-top: 10px;
+}
+
+.courses-items-wrapper_item {
+  width: 620px;
+  border-radius: 14px;
+  height: 80px;
+}
+
+.courses-items-wrapper_item:not(:first-child) {
+  margin-top: 16px;
+}
+
+.main-right {
+  margin-top: 55px;
+}
+
+.input-wrapper {
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.input-wrapper input {
+  outline: none;
+  border: none;
+  background: inherit;
+  font-size: 20px;
+}
+
+.progress-wrapper {
+  margin-top: 20px;
+  display: flex;
+}
+
+.progress-item {
+  width: 208px;
+  height: 96.33px;
+  border-radius: 14px;
+}
+
+.progress-item:first-child {
+  margin-right: 24px;
+}
+
+.statistics-wrapper {
+  margin-top: 40px;
+  width: 449.59px;
+  height: 378.5px;
+}
+
+.statistics-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.go-premium-wrapper {
+  margin-top: 49px;
+  width: 440px;
+  border-radius: 14px;
+  height: 193px;
+}
+
+.statistics-wrapper ul li:first-child {
+  margin-right: 24px;
+}
+
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.weekly {
+  margin-left: auto;
+  width: 88px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
