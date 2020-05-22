@@ -1,0 +1,80 @@
+/* common styles */
+
+body,
+html {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+header {
+  background: #f4f6f9;
+  min-height: 665px;
+}
+
+.header-content {
+  margin-left: 163px;
+}
+
+/* main */
+
+/* first-section */
+
+.first-section {
+  min-height: 592px;
+  background: lightgray;
+}
+
+/* second-section */
+
+.second-section {
+  min-height: 716px;
+}
+
+/* third-section */
+
+.third-section {
+  min-height: 735px;
+  background: aqua;
+}
+
+/* fourth-section */
+
+.fourth-section {
+  min-height: 431px;
+}
+
+/* fives-section */
+
+.fives-section {
+  min-height: 278px;
+  background: #fafafa;
+}
+
+/* sixth-section */
+
+.sixth-section {
+  min-height: 483px;
+}
+
+/* footer */
+
+footer {
+  height: 127px;
+  background: blue;
+}
