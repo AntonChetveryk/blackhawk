@@ -167,8 +167,8 @@ main .main-right {
   height: 40px;
   background-image: url("../img/Ellipse1.png");
   align-self: center;
-  margin-left: 45px;
-  margin-right: 40px;
+  margin-left: 35px;
+  margin-right: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
