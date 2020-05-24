@@ -15,7 +15,9 @@
     <header>
       <div class="container flex-row">
         <div class="header-content">
-          <div class="logo flex-row"><img src="" alt="logo" /> Sports</div>
+          <div class="logo flex-row">
+            <img src="img/LOGO.png" alt="img" />
+          </div>
           <h1 class="header-h1 flex-column">
             <span>Get a personalized football</span>
             <span>experience tailored just for you</span>
@@ -27,8 +29,12 @@
             <span>up-to-the-minute information on your team.</span>
           </p>
           <div class="header-btn-container flex-row">
-            <div class="header-btn-item"></div>
-            <div class="header-btn-item"></div>
+            <div class="header-btn-item">
+              <img src="img/AppleStore.png" alt="AppleStore" />
+            </div>
+            <div class="header-btn-item">
+              <img src="img/GooglePlay.png" alt="GooglePlay" />
+            </div>
           </div>
           <div class="learn-more"><a href="#">Learn more</a></div>
         </div>
@@ -39,8 +45,26 @@
         <div class="container flex-row">
           <div class="first-section-video flex-column">
             <div class="first-section-video-top">
-              <div class="match-info"></div>
-              <div class="sound-toggler"></div>
+              <div class="match-info flex-row">
+                <div class="match-info-content">
+                  <p>Sat, 12:35pm</p>
+                  <p class="flex-column black fs-18">
+                    <span>Arsenal v</span><span>Chelsea</span>
+                  </p>
+                  <p class="black fs-18">Friendly Match</p>
+                </div>
+                <div class="match-info-img flex-row">
+                  <img src="img/arsenal.png" alt="arsenal" />
+                  <img src="img/chelsea-fc.png" alt="chelsea" class="chelsea" />
+                </div>
+              </div>
+              <div class="sound-toggler flex-row">
+                <p class="fs-18">Turn on all match notifications</p>
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider round"></span>
+                </label>
+              </div>
             </div>
             <div class="first-section-video-bottom">
               <video
@@ -87,6 +111,10 @@
           </div>
           <div class="second-section-img">
             <img src="img/Iphone.png" alt="iphone" />
+            <div class="notifications">
+              <img src="img/notificatins.png" alt="img" />
+            </div>
+            <div class="mobile"><img src="img/mobile.png" alt="img" /></div>
           </div>
         </div>
       </section>
@@ -178,10 +206,85 @@
           </div>
         </div>
       </section>
-      <section class="fourth-section"><div class="container">4</div></section>
-      <section class="fives-section"><div class="container">5</div></section>
-      <section class="sixth-section"><div class="container">6</div></section>
+      <section class="fourth-section">
+        <div class="container">
+          <h2>What Our Users Say</h2>
+          <div class="fourth-section-items-container flex-row">
+            <div class="arrow-left">
+              <img src="img/left-arrow.png" alt="arrow" />
+            </div>
+            <div class="fourth-section-item">
+              <img src="img/Noah.png" alt="img" />
+            </div>
+            <div class="fourth-section-item">
+              <img src="img/Darren.png" alt="img" />
+            </div>
+            <div class="fourth-section-item">
+              <img src="img/Michael.png" alt="img" />
+            </div>
+            <div class="arrow-right">
+              <img src="img/right-arrow.png" alt="arrow" />
+            </div>
+          </div>
+          <div class="balls"><img src="img/balls.png" alt="" /></div>
+        </div>
+      </section>
+      <section class="fives-section">
+        <div class="container">
+          <h2>We have been featured in</h2>
+          <div class="logos-container">
+            <img src="img/Logos.png" alt="logos" />
+          </div>
+        </div>
+      </section>
+      <section class="sixth-section">
+        <div class="container flex-row">
+          <div class="sixth-section-content">
+            <h2>Get Up Close With Your Team</h2>
+            <p>
+              If you’re interested in the scores of more than one team (it’s OK,
+              we won’t tell your mates you support two clubs!), you can choose
+              the scores and competitions that matter to you using the ‘My
+              Scores’ section. So, make sure you’re a top-flight football fan by
+              downloading the Football Score Centre now. It’s got all this:
+            </p>
+            <div class="header-btn-container flex-row">
+              <div class="header-btn-item">
+                <img src="img/AppleStore.png" alt="AppleStore" />
+              </div>
+              <div class="header-btn-item">
+                <img src="img/GooglePlay.png" alt="GooglePlay" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer><div class="container">Footer</div></footer>
+    <footer>
+      <div class="container">
+        <div class="footer-content flex-row">
+          <img src="img/footer-logo.png" alt="img" />
+          <nav>
+            <ul class="footer-menu flex-row">
+              <li><a href="#">Download</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </nav>
+          <div class="sprite flex-row">
+            <a href="#" class="icon-container"
+              ><img src="img/twitter.png" alt="img"
+            /></a>
+            <a href="#" class="icon-container"
+              ><img src="img/facebook.png" alt="img"
+            /></a>
+            <a href="#" class="icon-container"
+              ><img src="img/instagram.png" alt="img"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

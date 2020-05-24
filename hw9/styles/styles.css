@@ -17,6 +17,20 @@ h2 {
 
 p {
   line-height: 23px;
+  color: #4f4f4f;
+}
+
+.black {
+  color: black;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .container {
@@ -71,8 +85,17 @@ header .container {
 .header-btn-item {
   width: 50%;
   height: 47px;
-  background: #000;
   border-radius: 7.3px;
+}
+
+.header-btn-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.header-btn-item {
+  width: 100%;
+  height: 100%;
 }
 
 .header-btn-item:first-child {
@@ -113,11 +136,35 @@ header .container {
 
 .match-info {
   height: 168px;
+  align-items: center;
+}
+
+.match-info-content {
+  margin-left: 15px;
+  width: 50%;
+}
+
+.match-info-content p:nth-child(2) {
+  margin: 12px 0;
+}
+
+.match-info-img {
+  width: 50%;
+  height: 83px;
+  position: relative;
+}
+
+.chelsea {
+  position: absolute;
+  right: 30px;
 }
 
 .sound-toggler {
   height: 50px;
   background: #eee;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
 }
 
 .first-section-video-bottom {
@@ -168,10 +215,51 @@ header .container {
   position: relative;
 }
 
-.second-section-img img {
+.second-section-img > img {
   position: absolute;
   left: 40px;
   top: 65px;
+}
+
+.notifications,
+.mobile {
+  width: 91px;
+  height: 91px;
+  background: #ffffff;
+  box-shadow: 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25),
+    0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1);
+  position: absolute;
+  border-radius: 50%;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notifications {
+  top: 130px;
+  left: 70px;
+}
+
+.notifications::after {
+  content: "7";
+  background: red;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 15px;
+  left: 50px;
+  background: #00adee;
+}
+
+.mobile {
+  top: 445px;
+  right: 215px;
 }
 
 /* third-section */
@@ -185,6 +273,10 @@ header .container {
 
 .third-section h2 {
   text-align: center;
+}
+
+.third-section p {
+  color: #fff;
 }
 
 .third-section-content {
@@ -212,11 +304,55 @@ header .container {
   min-height: 431px;
 }
 
+.fourth-section h2 {
+  text-align: center;
+  margin-top: 62px;
+}
+
+.fourth-section-items-container {
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 63px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.balls {
+  width: fit-content;
+  margin: auto;
+  margin-top: 47px;
+}
+
+.fourth-section-item {
+  width: 309px;
+  height: 161px;
+}
+
+.fourth-section-item img {
+  width: 100%;
+  height: 100%;
+}
+
 /* fives-section */
 
 .fives-section .container {
   min-height: 278px;
   background: #fafafa;
+  padding-top: 57px;
+}
+
+.fives-section h2 {
+  text-align: center;
+}
+
+.logos-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 55px;
 }
 
 /* sixth-section */
@@ -227,9 +363,119 @@ header .container {
   background-size: 46% 100%;
 }
 
+.sixth-section-content {
+  width: 50%;
+  margin-left: auto;
+  padding-top: 105px;
+}
+
+.sixth-section-content p {
+  width: 535px;
+  margin-top: 35px;
+}
+
 /* footer */
 
 footer .container {
   height: 127px;
   background: #00adee;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  width: 80%;
+  margin: auto;
+  height: 32px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer-menu a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-menu li:not(:last-child) {
+  margin-right: 37px;
+}
+
+.icon-container {
+  display: flex;
+  width: 27px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container:not(:last-child) {
+  margin-right: 17px;
+}
+
+/* toggler */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
