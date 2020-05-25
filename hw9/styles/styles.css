@@ -6,6 +6,10 @@ html {
   font-size: 16px;
 }
 
+.icon-bg {
+  fill: red;
+}
+
 a {
   text-decoration: none;
   color: #00adee;
@@ -58,7 +62,7 @@ header .container {
 .header-content {
   margin-left: 10%;
   width: 40%;
-  height: 665px;
+  height: 100%;
 }
 
 .logo {
