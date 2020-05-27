@@ -350,6 +350,10 @@ header .container {
   height: 100%;
 }
 
+.container-mobile {
+  display: none;
+}
+
 /* fives-section */
 
 .fives-section .container {
