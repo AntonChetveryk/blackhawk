@@ -7,16 +7,9 @@ html {
   margin: auto;
 }
 
-.blue-circle {
-  width: 22px;
+.menu div {
   height: 22px;
-  border-radius: 50%;
-  background: #4094ef;
-}
-
-.menu img {
   width: 22px;
-  height: 22px;
 }
 
 .grey-line,
@@ -31,15 +24,8 @@ html {
   height: 29px;
 }
 
-.form-control {
-  padding: 0;
-  margin: 0;
-}
-
 .header-input::placeholder {
-  text-align: end;
-  padding: 0;
-  margin: 0;
+  text-align: start;
 }
 
 .avatar img {
@@ -47,7 +33,7 @@ html {
   height: 153px;
 }
 
-.name span {
+.name span:first-child {
   font-weight: 500;
   font-size: 26px;
 }
@@ -78,9 +64,36 @@ html {
 .post {
   width: 297px;
   height: 297px;
-  background-image: url("bg.png");
+  background-image: url("./img/bg.png");
 }
 
 .posts-container {
   flex-wrap: wrap;
+}
+
+.dotes {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu img:hover,
+.menu div:hover {
+  cursor: pointer;
+}
+
+.notifications {
+  position: relative;
+}
+
+.notifications::after {
+  content: "5";
+  position: absolute;
+  background: #dc565b;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  right: -10px;
 }
