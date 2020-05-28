@@ -1,0 +1,86 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.blue-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #4094ef;
+}
+
+.menu img {
+  width: 22px;
+  height: 22px;
+}
+
+.grey-line,
+.tabs {
+  height: 1px;
+  background: #dbdbdb;
+  margin-left: 1%;
+}
+
+.header-input {
+  width: 216px;
+  height: 29px;
+}
+
+.form-control {
+  padding: 0;
+  margin: 0;
+}
+
+.header-input::placeholder {
+  text-align: end;
+  padding: 0;
+  margin: 0;
+}
+
+.avatar img {
+  width: 154px;
+  height: 153px;
+}
+
+.name span {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.about p {
+  width: 80%;
+}
+
+.history img {
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+}
+
+.posts-menu-item {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.grey {
+  color: #8f8f8f;
+}
+
+.posts-menu-item:hover {
+  cursor: pointer;
+}
+
+.post {
+  width: 297px;
+  height: 297px;
+  background-image: url("bg.png");
+}
+
+.posts-container {
+  flex-wrap: wrap;
+}
