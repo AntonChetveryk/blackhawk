@@ -110,3 +110,7 @@ html {
   height: 18px;
   right: -10px;
 }
+
+.history {
+  flex-wrap: wrap;
+}
