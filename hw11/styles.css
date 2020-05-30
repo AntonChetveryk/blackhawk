@@ -24,13 +24,22 @@ body {
   position: relative;
 }
 
-.animation-block-first div {
+.animation-block-first > div {
   width: 200px;
   height: 3px;
   background: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
+  position: relative;
+}
+
+.inner {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background: black;
+  left: 10px;
 }
 
 .first {
