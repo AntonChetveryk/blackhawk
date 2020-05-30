@@ -139,7 +139,6 @@ body {
   animation-name: first-ball;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 .last-ball {
@@ -148,7 +147,6 @@ body {
   animation-name: last-ball;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 @keyframes first-ball {
