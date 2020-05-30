@@ -14,6 +14,10 @@ body {
   align-items: center;
 }
 
+.second-animation-wrapper {
+  flex-direction: column;
+}
+
 .first-animation-wrapper {
   background: black;
 }
@@ -122,8 +126,6 @@ body {
   height: 50px;
   border-radius: 50%;
   background: black;
-  justify-content: center;
-  align-items: center;
 }
 
 .first-ball,
@@ -195,4 +197,70 @@ body {
 .animation-block-second:hover .first-ball,
 .animation-block-second:hover .last-ball {
   animation-play-state: paused;
+}
+
+.animation-block-shadow {
+  display: flex;
+  margin-top: 60px;
+}
+
+.shadow {
+  width: 40px;
+  height: 2px;
+  margin: 0 5px;
+  background: black;
+  opacity: 0.5;
+  border-radius: 2px;
+}
+
+.first-shadow {
+  animation-name: first-shadow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: relative;
+}
+
+@keyframes first-shadow {
+  25% {
+    left: 0px;
+  }
+
+  50% {
+    left: -40px;
+  }
+
+  75% {
+    left: 0px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+.last-shadow {
+  animation-name: last-shadow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: relative;
+  left: 40px;
+}
+
+@keyframes last-shadow {
+  25% {
+    left: 0px;
+  }
+
+  50% {
+    left: 0px;
+  }
+
+  75% {
+    left: 0px;
+  }
+  100% {
+    left: 40px;
+  }
 }
