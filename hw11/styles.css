@@ -206,11 +206,6 @@ body {
   }
 }
 
-.animation-block-second:hover .first-ball,
-.animation-block-second:hover .last-ball {
-  animation-play-state: paused;
-}
-
 .animation-block-shadow {
   display: flex;
   margin-top: 60px;
