@@ -28,26 +28,23 @@ body {
   position: relative;
 }
 
-.animation-block-first > div {
+.second,
+.third {
   width: 200px;
   height: 3px;
   background: #fff;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
-  position: relative;
-}
-
-.inner {
-  position: absolute;
-  width: 20px;
-  height: 3px;
-  background: black;
-  left: 10px;
 }
 
 .first {
-  top: 40%;
+  width: 200px;
+  height: 3px;
+  background: #fff;
+  position: relative;
+  top: 10%;
+  left: 60%;
   transform: translate(-50%, -50%);
   visibility: hidden;
 }
@@ -60,12 +57,29 @@ body {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+.inner-left {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background: black;
+  left: 10px;
+}
+
+.inner-right {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background: black;
+  left: 170px;
+}
+
 .animation-block-first:hover .first {
   transition: all 1s;
   transition-delay: 1.5s;
   visibility: visible;
   transform: translate(-50%, -50%);
   top: 40%;
+  left: 50%;
 }
 
 .animation-block-first:hover .second {
