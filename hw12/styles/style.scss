@@ -1,0 +1,298 @@
+$blue-grey: #505f98;
+$dark-btn-bg: #111b47;
+$header-color: #091133;
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.content-container {
+  width: 80%;
+  margin: auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-dark {
+  background: $dark-btn-bg;
+  border-radius: 2px;
+  border: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.btn-dark:hover {
+  background: none;
+  border: 2px solid #091133;
+  color: #091133;
+}
+
+.btn-transparent {
+  background: none;
+  border-radius: 2px;
+  border: 2px solid #091133;
+  color: #091133;
+  font-size: 12px;
+}
+
+.btn-transparent:hover {
+  background: $dark-btn-bg;
+  color: #ffffff;
+}
+
+h2 {
+  color: $header-color;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+h4 {
+  color: $header-color;
+  font-weight: 500;
+}
+
+p {
+  color: $blue-grey;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+// header
+
+.header {
+  height: 1112px;
+  background: url("../img/header-bg.png") no-repeat right;
+  background-size: 65% 100%;
+  padding-top: 20px;
+
+  .nav {
+    flex-basis: 245px;
+    .menu {
+      width: 100%;
+      justify-content: space-between;
+      li {
+        margin-right: 5px;
+        a {
+          color: $blue-grey;
+        }
+      }
+    }
+  }
+
+  .logo {
+    a {
+      color: #37447e;
+      font-weight: 900;
+      font-size: 26px;
+    }
+  }
+
+  .buy-now-btn {
+    @extend .btn-dark;
+    width: 160px;
+    height: 26px;
+  }
+
+  .header-info {
+    margin-top: 260px;
+    &-content {
+      width: 50%;
+      h1 {
+        font-weight: 500;
+        font-size: 50px;
+        color: $header-color;
+      }
+      .header-info-content__text {
+        margin-top: 20px;
+        margin-bottom: 74px;
+      }
+    }
+    button {
+      width: 189px;
+      height: 26px;
+    }
+    &-content-buttons__btn {
+      margin-right: 30px;
+    }
+  }
+}
+
+// main
+
+.first-section {
+  &-wrapper {
+    margin-top: 109px;
+    margin-bottom: 108px;
+    .first-section-wrapper__item {
+      margin-right: 30px;
+    }
+    .first-section-content,
+    .first-section-img {
+      width: 50%;
+    }
+    .first-section-content {
+      margin-top: 50px;
+      p {
+        margin: 15px 0 80px 0;
+      }
+      .icons-wrapper {
+        .icons-wrapper__item {
+          margin-right: 30px;
+        }
+        .icon-block {
+          width: 50%;
+          .icon-container {
+            width: 36px;
+            height: 36px;
+          }
+          h4 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+          }
+          p {
+            margin: 0;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// second-section
+
+.second-section {
+  .second-section-block {
+    padding: 120px 0;
+    .second-section-block__img,
+    .second-section-block__content {
+      width: 50%;
+    }
+    .second-section-block__img {
+      margin-right: 155px;
+    }
+    .second-section-block__content {
+      p {
+        margin-top: 16px;
+      }
+    }
+  }
+}
+
+// third-section
+
+.third-section {
+  justify-content: center;
+  background: RGBA(231, 236, 255, 0.5);
+  padding-top: 200px;
+  padding-bottom: 170px;
+  .third-section-content {
+    width: 40%;
+    text-align: center;
+    .about {
+      margin-top: 16px;
+      margin-bottom: 35px;
+    }
+    .price {
+      font-weight: 500;
+      font-size: 50px;
+      color: #222f65;
+    }
+    .ui {
+      color: #37447e;
+      margin-bottom: 60px;
+    }
+    button {
+      width: 189px;
+      height: 32px;
+      margin-top: 10px;
+    }
+  }
+}
+
+// footer
+
+footer {
+  background: #e7ecff;
+  padding-top: 61px;
+  padding-bottom: 32px;
+  .copyright {
+    font-weight: 500;
+    font-size: 14px;
+    color: #939ea4;
+  }
+  .logo {
+    a {
+      color: #37447e;
+      font-weight: 900;
+      font-size: 26px;
+    }
+  }
+  button {
+    width: 109px;
+    height: 26px;
+  }
+  .grey-line {
+    background: #cdd1d4;
+    width: 100%;
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .footer-menu {
+    .nav {
+      flex-basis: 245px;
+      .menu {
+        width: 100%;
+        justify-content: space-between;
+        li {
+          margin-right: 5px;
+          a {
+            color: #929ecc;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .sprite {
+      height: 16px;
+      flex-basis: 140px;
+    }
+  }
+}

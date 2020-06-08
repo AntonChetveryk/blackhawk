@@ -1,0 +1,265 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.content-container {
+  width: 80%;
+  margin: auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-dark, .header .buy-now-btn {
+  background: #111b47;
+  border-radius: 2px;
+  border: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.btn-dark:hover, .header .buy-now-btn:hover {
+  background: none;
+  border: 2px solid #091133;
+  color: #091133;
+}
+
+.btn-transparent {
+  background: none;
+  border-radius: 2px;
+  border: 2px solid #091133;
+  color: #091133;
+  font-size: 12px;
+}
+
+.btn-transparent:hover {
+  background: #111b47;
+  color: #ffffff;
+}
+
+h2 {
+  color: #091133;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+h4 {
+  color: #091133;
+  font-weight: 500;
+}
+
+p {
+  color: #505f98;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.header {
+  height: 1112px;
+  background: url("../img/header-bg.png") no-repeat right;
+  background-size: 65% 100%;
+  padding-top: 20px;
+}
+.header .nav {
+  flex-basis: 245px;
+}
+.header .nav .menu {
+  width: 100%;
+  justify-content: space-between;
+}
+.header .nav .menu li {
+  margin-right: 5px;
+}
+.header .nav .menu li a {
+  color: #505f98;
+}
+.header .logo a {
+  color: #37447e;
+  font-weight: 900;
+  font-size: 26px;
+}
+.header .buy-now-btn {
+  width: 160px;
+  height: 26px;
+}
+.header .header-info {
+  margin-top: 260px;
+}
+.header .header-info-content {
+  width: 50%;
+}
+.header .header-info-content h1 {
+  font-weight: 500;
+  font-size: 50px;
+  color: #091133;
+}
+.header .header-info-content .header-info-content__text {
+  margin-top: 20px;
+  margin-bottom: 74px;
+}
+.header .header-info button {
+  width: 189px;
+  height: 26px;
+}
+.header .header-info-content-buttons__btn {
+  margin-right: 30px;
+}
+
+.first-section-wrapper {
+  margin-top: 109px;
+  margin-bottom: 108px;
+}
+.first-section-wrapper .first-section-wrapper__item {
+  margin-right: 30px;
+}
+.first-section-wrapper .first-section-content,
+.first-section-wrapper .first-section-img {
+  width: 50%;
+}
+.first-section-wrapper .first-section-content {
+  margin-top: 50px;
+}
+.first-section-wrapper .first-section-content p {
+  margin: 15px 0 80px 0;
+}
+.first-section-wrapper .first-section-content .icons-wrapper .icons-wrapper__item {
+  margin-right: 30px;
+}
+.first-section-wrapper .first-section-content .icons-wrapper .icon-block {
+  width: 50%;
+}
+.first-section-wrapper .first-section-content .icons-wrapper .icon-block .icon-container {
+  width: 36px;
+  height: 36px;
+}
+.first-section-wrapper .first-section-content .icons-wrapper .icon-block h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.first-section-wrapper .first-section-content .icons-wrapper .icon-block p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.second-section .second-section-block {
+  padding: 120px 0;
+}
+.second-section .second-section-block .second-section-block__img,
+.second-section .second-section-block .second-section-block__content {
+  width: 50%;
+}
+.second-section .second-section-block .second-section-block__img {
+  margin-right: 155px;
+}
+.second-section .second-section-block .second-section-block__content p {
+  margin-top: 16px;
+}
+
+.third-section {
+  justify-content: center;
+  background: RGBA(231, 236, 255, 0.5);
+  padding-top: 200px;
+  padding-bottom: 170px;
+}
+.third-section .third-section-content {
+  width: 40%;
+  text-align: center;
+}
+.third-section .third-section-content .about {
+  margin-top: 16px;
+  margin-bottom: 35px;
+}
+.third-section .third-section-content .price {
+  font-weight: 500;
+  font-size: 50px;
+  color: #222f65;
+}
+.third-section .third-section-content .ui {
+  color: #37447e;
+  margin-bottom: 60px;
+}
+.third-section .third-section-content button {
+  width: 189px;
+  height: 32px;
+  margin-top: 10px;
+}
+
+footer {
+  background: #e7ecff;
+  padding-top: 61px;
+  padding-bottom: 32px;
+}
+footer .copyright {
+  font-weight: 500;
+  font-size: 14px;
+  color: #939ea4;
+}
+footer .logo a {
+  color: #37447e;
+  font-weight: 900;
+  font-size: 26px;
+}
+footer button {
+  width: 109px;
+  height: 26px;
+}
+footer .grey-line {
+  background: #cdd1d4;
+  width: 100%;
+  height: 1px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+footer .footer-menu .nav {
+  flex-basis: 245px;
+}
+footer .footer-menu .nav .menu {
+  width: 100%;
+  justify-content: space-between;
+}
+footer .footer-menu .nav .menu li {
+  margin-right: 5px;
+}
+footer .footer-menu .nav .menu li a {
+  color: #929ecc;
+  font-size: 14px;
+}
+footer .footer-menu .sprite {
+  height: 16px;
+  flex-basis: 140px;
+}
