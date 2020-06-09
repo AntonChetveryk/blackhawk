@@ -40,8 +40,8 @@
   visibility: hidden;
   top: 0;
   left: -100%;
-  width: 300px;
-  height: 100%;
+  width: 100%;
+  height: fit-content;
   margin: 0;
   padding: 80px 0;
   list-style: none;
