@@ -337,6 +337,26 @@ p {
       margin-top: 10px;
     }
   }
+
+  @media (max-width: $breakpoint) {
+    background: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .third-section-content {
+      width: 80%;
+      p {
+        text-align: center;
+      }
+      .ui {
+        margin-bottom: 30px;
+      }
+      button {
+        width: 189px;
+        height: 32px;
+        margin-top: 10px;
+      }
+    }
+  }
 }
 
 // footer
@@ -386,6 +406,20 @@ footer {
     .sprite {
       height: 16px;
       flex-basis: 140px;
+      a {
+        margin-right: 5px;
+      }
+    }
+  }
+  @media (max-width: $breakpoint) {
+    button {
+      display: none;
+    }
+    .footer-menu {
+      justify-content: center;
+      .nav {
+        display: none;
+      }
     }
   }
 }

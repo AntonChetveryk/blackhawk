@@ -313,6 +313,27 @@ p {
   height: 32px;
   margin-top: 10px;
 }
+@media (max-width: 700px) {
+  .third-section {
+    background: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .third-section .third-section-content {
+    width: 80%;
+  }
+  .third-section .third-section-content p {
+    text-align: center;
+  }
+  .third-section .third-section-content .ui {
+    margin-bottom: 30px;
+  }
+  .third-section .third-section-content button {
+    width: 189px;
+    height: 32px;
+    margin-top: 10px;
+  }
+}
 
 footer {
   background: #e7ecff;
@@ -357,4 +378,18 @@ footer .footer-menu .nav .menu li a {
 footer .footer-menu .sprite {
   height: 16px;
   flex-basis: 140px;
+}
+footer .footer-menu .sprite a {
+  margin-right: 5px;
+}
+@media (max-width: 700px) {
+  footer button {
+    display: none;
+  }
+  footer .footer-menu {
+    justify-content: center;
+  }
+  footer .footer-menu .nav {
+    display: none;
+  }
 }
