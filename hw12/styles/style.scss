@@ -1,6 +1,9 @@
+@import "./burger-menu.css";
+
 $blue-grey: #505f98;
 $dark-btn-bg: #111b47;
 $header-color: #091133;
+$breakpoint: 700px;
 
 body,
 html {
@@ -78,6 +81,9 @@ h2 {
   color: $header-color;
   font-weight: 500;
   font-size: 36px;
+  @media (max-width: $breakpoint) {
+    text-align: center;
+  }
 }
 
 h4 {
@@ -87,6 +93,9 @@ h4 {
 
 p {
   color: $blue-grey;
+  @media (max-width: $breakpoint) {
+    text-align: justify;
+  }
 }
 
 .fs-18 {
@@ -100,6 +109,10 @@ p {
   background: url("../img/header-bg.png") no-repeat right;
   background-size: 65% 100%;
   padding-top: 20px;
+
+  .hamburger-menu {
+    display: none;
+  }
 
   .nav {
     flex-basis: 245px;
@@ -151,6 +164,44 @@ p {
       margin-right: 30px;
     }
   }
+
+  @media (max-width: $breakpoint) {
+    padding-top: 45px;
+    padding-bottom: 40px;
+    background: whitesmoke;
+    height: fit-content;
+
+    .nav {
+      display: none;
+    }
+    .hamburger-menu {
+      display: block;
+    }
+
+    .header-info {
+      margin-top: 100px;
+      &-content {
+        align-items: center;
+        width: 100%;
+        h1 {
+          font-size: 24px;
+          text-align: center;
+        }
+        p {
+          text-align: justify;
+        }
+      }
+      .header-info-content-buttons {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      &-content-buttons__btn {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
 
 // main
@@ -193,6 +244,28 @@ p {
       }
     }
   }
+  @media (max-width: $breakpoint) {
+    &-wrapper {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      flex-direction: column;
+      align-items: center;
+      .first-section-wrapper__item {
+        margin-right: 0;
+      }
+      .first-section-content,
+      .first-section-img {
+        width: 100%;
+      }
+      .first-section-content {
+        margin-top: 50px;
+        margin-bottom: 40px;
+      }
+      .icon-container {
+        margin: auto;
+      }
+    }
+  }
 }
 
 // second-section
@@ -210,6 +283,26 @@ p {
     .second-section-block__content {
       p {
         margin-top: 16px;
+      }
+    }
+  }
+  @media (max-width: $breakpoint) {
+    background-color: whitesmoke;
+    .second-section-block {
+      padding: 40px 0;
+      flex-direction: column-reverse;
+      .second-section-block__img,
+      .second-section-block__content {
+        width: 100%;
+      }
+      .second-section-block__img {
+        margin-right: 0;
+        margin-top: 50px;
+      }
+      .second-section-block__content {
+        p {
+          margin-top: 16px;
+        }
       }
     }
   }
